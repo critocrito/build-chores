@@ -9,6 +9,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "release": "lerna publish"
+  },
   "devDependencies": {
     "lerna": "^3.4.1"
   }

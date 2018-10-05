@@ -11,7 +11,9 @@
       "bump": "minor",
       "exact": true,
       "forcePublish": "*",
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "push": false,
+      "sign-git-tag": true
     }
   }
 }
