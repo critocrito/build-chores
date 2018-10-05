@@ -1,0 +1,20 @@
+{
+  "name": "@build-chores/babel-preset",
+  "description": "Transpiling JS is complicated.",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/critocrito/build-chores.git",
+  "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/babel-preset#readme",
+  "author": "Christo <christo@cryptodrunks.net>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-syntax-flow": "^7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0"
+  }
+}

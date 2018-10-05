@@ -1,0 +1,18 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "version": "0.0.0",
+  "command": {
+    "publish": {
+      "message": "chore(release): publish %s",
+      "bump": "minor",
+      "skipNpm": true,
+      "exact": true,
+      "forcePublish": "*",
+      "conventionalCommits": true
+    }
+  }
+}

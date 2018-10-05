@@ -1,10 +1,31 @@
 {
+  "private": true,
   "name": "build-chores",
   "description": "Building JS projects is complicated",
-  "version": "0.0.1",
-  "main": "src/index.js",
   "repository": "https://github.com/critocrito/build-chores.git",
   "homepage": "https://github.com/critocrito/build-chores#readme",
   "author": "Christo <christo@cryptodrunks.net>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "compile": "babel --verbose --config-file ./.babelrc -d ../dist --relative -s -D packages/*/src"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.1.1",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "prettier-package-json": "^2.0.1",
+    "lerna": "^3.4.1"
+  }
 }
