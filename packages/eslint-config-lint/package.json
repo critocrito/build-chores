@@ -1,7 +1,7 @@
 {
   "name": "@build-chores/eslint-config-lint",
   "description": "Linting JS projects is complicated.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "main": "index.js",
   "repository": "https://github.com/critocrito/build-chores.git",
   "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/eslint-config-lint#readme",
@@ -11,7 +11,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@build-chores/babel-preset": "0.4.0",
+    "@build-chores/babel-preset": "0.5.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.6.1",
     "eslint-config-airbnb-base": "^13.1.0",
