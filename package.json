@@ -1,0 +1,10 @@
+{
+  "name": "build-chores",
+  "description": "Building JS projects is complicated",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/critocrito/build-chores.git",
+  "homepage": "https://github.com/critocrito/build-chores#readme",
+  "author": "Christo <christo@cryptodrunks.net>",
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,15 @@
+.DS_STORE
+.dir-locals.el
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+!keep
+package-lock.json
+node_modules
+*.log*
+dist
