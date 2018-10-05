@@ -2,15 +2,11 @@
   "name": "@build-chores/eslint-config-lint",
   "description": "Linting JS projects is complicated.",
   "version": "0.4.0",
-  "main": "dist/index.js",
+  "main": "index.js",
   "repository": "https://github.com/critocrito/build-chores.git",
   "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/eslint-config-lint#readme",
   "author": "Christo <christo@cryptodrunks.net>",
   "license": "GPL-3.0",
-  "files": [
-    "src",
-    "dist"
-  ],
   "publishConfig": {
     "access": "public"
   },
