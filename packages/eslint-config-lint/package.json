@@ -1,0 +1,33 @@
+{
+  "name": "@build-chores/eslint-config-lint",
+  "description": "Linting JS projects is complicated.",
+  "version": "0.0.3",
+  "main": "dist/index.js",
+  "repository": "https://github.com/critocrito/build-chores.git",
+  "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/eslint-config-lint#readme",
+  "author": "Christo <christo@cryptodrunks.net>",
+  "license": "GPL-3.0",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@build-chores/babel-preset": "0.0.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-flowtype-errors": "^3.6.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "flow-bin": "^0.82.0",
+    "flow-typed": "^2.5.1",
+    "prettier": "^1.14.3",
+    "prettier-package-json": "^2.0.1"
+  }
+}

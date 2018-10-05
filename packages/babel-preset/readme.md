@@ -1,4 +1,4 @@
-# Build Chores
+# `@build-chores/babel-preset`
 
 > Transpiling JS projects is complicated.
 
