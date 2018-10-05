@@ -1,0 +1,17 @@
+{
+  "name": "@build-chores/commitlint",
+  "description": "Committing JS projects is complicated.",
+  "version": "0.4.0",
+  "main": "index.js",
+  "repository": "https://github.com/critocrito/build-chores.git",
+  "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/commitlint#readme",
+  "author": "Christo <christo@cryptodrunks.net>",
+  "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^7.2.0",
+    "@commitlint/config-conventional": "^7.1.2"
+  }
+}
