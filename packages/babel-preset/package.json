@@ -1,7 +1,7 @@
 {
   "name": "@build-chores/babel-preset",
   "description": "Transpiling JS is complicated.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "repository": "https://github.com/critocrito/build-chores.git",
   "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/babel-preset#readme",
