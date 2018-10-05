@@ -4,7 +4,7 @@
 
 ## Synopsis
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Build Status](https://travis-ci.org/critocrito/build-chores.svg?branch=master)](https://travis-ci.org/critocrito/build-chores) [![Coverage Status](https://coveralls.io/repos/github/critocrito/build-chores/badge.svg)](https://coveralls.io/github/critocrito/build-chores)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 The `@build-chores` packages collect common JavaScript tooling configurations for all of my packages. The tooling contains the following parts:
 
