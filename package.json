@@ -2,17 +2,20 @@
   "private": true,
   "name": "build-chores",
   "description": "Building JS projects is complicated",
-  "repository": "https://github.com/critocrito/build-chores.git",
-  "homepage": "https://github.com/critocrito/build-chores#readme",
-  "author": "Christo <christo@cryptodrunks.net>",
   "license": "GPL-3.0",
+  "author": "Christo <christo@cryptodrunks.net>",
+  "homepage": "https://github.com/critocrito/build-chores#readme",
+  "repository": "https://github.com/critocrito/build-chores.git",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "fix": "yarn lint --fix",
+    "lint": "eslint packages/**/*.js",
     "release": "lerna publish"
   },
   "devDependencies": {
+    "husky": "^1.1.1",
     "lerna": "^3.4.1"
   }
 }

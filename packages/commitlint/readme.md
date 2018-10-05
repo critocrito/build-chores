@@ -29,7 +29,7 @@ Add the following pre-commit hook to your `.huskyrc` configuration:
 ```
 {
   "hooks": {
-    "commit-msg": "! git rev-parse --abbrev-ref HEAD | grep -q master || commitlint -E GIT_PARAMS",
+    "commit-msg": "! git rev-parse --abbrev-ref HEAD | grep -q master || commitlint -E HUSKY_GIT_PARAMS",
   }
 }
 ```

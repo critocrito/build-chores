@@ -1,0 +1,1 @@
+packages/eslint-config-lint/index.js

@@ -21,7 +21,7 @@ Add the following pre-commit hook to your `.huskyrc` configuration:
 ```
 {
   "hooks": {
-    "pre-commit": "! git rev-parse --abbrev-ref HEAD | grep -q master || lint-staged -c @build-chores/staged"
+    "pre-commit": "! git rev-parse --abbrev-ref HEAD | grep -q master || (lint-staged -c @build-chores/staged && yarn test)"
   }
 }
 ```
