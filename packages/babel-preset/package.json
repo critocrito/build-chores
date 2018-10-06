@@ -5,7 +5,7 @@
   "author": "Christo <christo@cryptodrunks.net>",
   "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/babel-preset#readme",
   "repository": "https://github.com/critocrito/build-chores.git",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "main": "index.js",
   "dependencies": {
     "@babel/cli": "^7.1.2",
