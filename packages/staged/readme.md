@@ -32,6 +32,12 @@ Place a `pre-commit` hook in your `.huskyrc`. The following example hook only li
 }
 ```
 
+To make sure that `prettier` isn't touching the `package.json` file during staging, place a `.prettierignore` file. See the [example `.prettierignore`](../../project-example/.prettierignore) for a template.
+
+```
+package.json
+```
+
 You are ready to lint your staged files before committing.
 
 ## Contribute
