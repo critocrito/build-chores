@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/babel-preset/package.json",
+        "packages/commitlint/package.json",
+        "packages/eslint-config-lint/package.json",
+        "packages/staged/package.json"
+      ]
+    }
+  }
+}
