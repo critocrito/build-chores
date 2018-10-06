@@ -3,6 +3,9 @@
   "description": "Linting JS projects is complicated.",
   "version": "0.5.0",
   "main": "index.js",
+  "bin": {
+    "flow-libdefs": "./libdefs.js"
+  },
   "repository": "https://github.com/critocrito/build-chores.git",
   "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/eslint-config-lint#readme",
   "author": "Christo <christo@cryptodrunks.net>",

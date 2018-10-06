@@ -7,7 +7,8 @@
     "fix": "yarn lint --fix",
     "test": "ava",
     "test:watch": "yarn test -w",
-    "test:coverage": "nyc yarn test"
+    "test:coverage": "nyc yarn test",
+    "libdefs": "yarn flow-libdefs update"
   },
   "devDependencies": {
     "@build-chores/babel-preset": "*",
