@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "build": "yarn lint",
     "fix": "yarn lint --fix",
     "lint": "eslint packages/**/*.js",
     "release": "lerna publish"

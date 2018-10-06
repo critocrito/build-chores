@@ -9,7 +9,7 @@ install:
   - yarn install
   - lerna bootstrap
 script:
-  - yarn lint
+  - yarn build
 notifications:
   email:
     on_success: change
