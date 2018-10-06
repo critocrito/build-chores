@@ -39,7 +39,7 @@ module.exports = {
     "import/no-extraneous-dependencies": [
       "error",
       {
-        devDependencies: ["**/test/**/*.js"],
+        devDependencies: ["**/test/**/*.js", "lint-staged.config.js"],
       },
     ],
     "flowtype-errors/show-errors": 2,
