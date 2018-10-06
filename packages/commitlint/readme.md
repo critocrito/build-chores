@@ -16,7 +16,7 @@ Install the `@build-chores/commitlint` package into your project:
 yarn install --dev @build-chores/commitlint
 ```
 
-Create a `commitlint.config.js` file containing the following snippet. See [`commitlint.config.js.example`](../../commitlint.config.js.example) for a template.
+Create a `commitlint.config.js` file containing the following snippet. See the [example `commitlint.config.js`](../../project-example/commitlint.config.js) for a template.
 
 ```
 module.exports = {
@@ -30,7 +30,7 @@ Use [Husky](https://github.com/typicode/husky#readme) to lint your commit messag
 yarn add --dev husky
 ```
 
-Place a `commit-msg` hook in your `.huskyrc`. The following example hook only lints commit message when committing to the `master` branch. See [`huskyrc.example`](../../huskyrc.example) for a template.
+Place a `commit-msg` hook in your `.huskyrc`. The following example hook only lints commit message when committing to the `master` branch. See the [example `.huskyrc`](../../project-example/.huskyrc) for a template.
 
 ```
 {

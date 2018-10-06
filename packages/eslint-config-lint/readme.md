@@ -16,7 +16,7 @@ Install the `@build-chores/eslint-config-lint` package into your project:
 yarn install --dev @build-chores/eslint-config-lint
 ```
 
-Create a `.eslintrc` file containing the following snippet. See [`eslintrc.example`](../../eslintrc.example) for a template.
+Create a `.eslintrc` file containing the following snippet. See the [example `.eslintrc`](../../project-example/.eslintrc) for a template.
 
 ```
 {
@@ -24,16 +24,16 @@ Create a `.eslintrc` file containing the following snippet. See [`eslintrc.examp
 }
 ```
 
- To use flow as well place a `.flowconfig` and `.flowcoverage` configuration file. See [`flowconfig.example`](../../flowconfig.example) and [`flowcoverage.example`](../../flowcoverage.example) for templates.
+ To use flow as well place a `.flowconfig` and `.flowcoverage` configuration file. See the [example `flowconfig`](../../project-example/.flowconfig) and the [example `.flowcoverage`](../../project-example/.flowcoverage) for templates.
 
-Edit your `package.json` to include the following scripts:
+Edit your `package.json` to include the following scripts. See the [example `package.json`](../../project-example/package.json) for a template.
 
 ```
 {
   "scripts": {
     "lint": "eslint src/**/*.js**",
-    "fix": "yarn lint --fix",
-    "flow-coverage": "yarn flow-coverage-report --config ./.flowcoverage"
+    "lint:coverage": "yarn flow-coverage-report --config ./.flowcoverage",
+    "fix": "yarn lint --fix"
   }
 }
 ```

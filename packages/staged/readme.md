@@ -22,7 +22,7 @@ Use [Husky](https://github.com/typicode/husky#readme) to lint your stage wheneve
 yarn add --dev husky
 ```
 
-Place a `pre-commit` hook in your `.huskyrc`. The following example hook only lints your stage when committing to the `master` branch. See [`huskyrc.example`](../../huskyrc.example) for a template.
+Place a `pre-commit` hook in your `.huskyrc`. The following example hook only lints your stage when committing to the `master` branch. See the [example `.huskyrc`](../../project-example/.huskyrc) for a template.
 
 ```
 {

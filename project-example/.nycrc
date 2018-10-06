@@ -1,0 +1,6 @@
+{
+  "sourceMap": false,
+  "instrument": true,
+  "all": true,
+  "include": ["src/**/*.js"]
+}

@@ -16,7 +16,7 @@ Install the `@build-chores/test` package into your project:
 yarn install --dev @build-chores/test
 ```
 
-To make use of AVA add the following entry to your `package.json`. It will use your local `.babelrc` to compile your source code and use [`babel-plugin-istanbul`](https://github.com/istanbuljs/babel-plugin-istanbul#readme) to instrument the code.
+To make use of AVA add the following entry to your `package.json`. It will use your local `.babelrc` to compile your source code and use [`babel-plugin-istanbul`](https://github.com/istanbuljs/babel-plugin-istanbul#readme) to instrument the code. See the [example `package.json`](../../project-example/package.json) for a template.
 
 ```
 {
@@ -26,7 +26,7 @@ To make use of AVA add the following entry to your `package.json`. It will use y
 }
 ```
 
-Configure code coverage by placing a `.nycrc` in your project root.
+Configure code coverage by placing a `.nycrc` in your project root. See the [example `.nycrc`](../../project-example/.nycrc) for a template.
 
 ```
 {
@@ -41,14 +41,14 @@ Configure code coverage by placing a `.nycrc` in your project root.
 
 Please note that in order for `all` to work and instrument all source files, `instrument` has to be set to `true`.
 
-Provide the `test` and `coverage` script targets to your `package.json`. AVA sets your `NODE_ENV` to `test` automatically.
+Provide the `test` and `coverage` script targets to your `package.json`. AVA sets your `NODE_ENV` to `test` automatically. See the [example `package.json`](../../project-example/package.json) for a template.
 
 ```
 {
   "scripts": {
     "test": "ava",
     "test:watch": "yarn test -w",
-    "coverage": "nyc yarn test"
+    "test:coverage": "nyc yarn test"
   }
 }
 ```

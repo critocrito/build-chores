@@ -38,7 +38,7 @@ yarn add --dev @build-chores/babel-preset \
                @build-chores/test
 ```
 
-See the [respective packages](packages) for details on how to configure them.
+See the [respective packages](packages) for details on how to configure them. The [`project-example`](project-example) collects all relevant configuration changes for a quick overview.
 
 ## Contribute
 

@@ -1,5 +1,0 @@
-{
-  "presets": [
-    ["@build-chores/babel-preset"]
-  ]
-}

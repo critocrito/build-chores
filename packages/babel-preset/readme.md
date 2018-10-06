@@ -24,9 +24,9 @@ Create a `.babelrc` file containing the following snippet:
 }
 ```
 
-See [`babelrc.example`](../../babelrc.example) for a template.
+See the [example `.babelrc`](../../project-example/.babelrc) for a template.
 
-Edit your `package.json` to include the following script:
+Edit your `package.json` to include the following script. See the [example `package.json`](../../project-example/package.json) for a template.
 
 ```
 {
