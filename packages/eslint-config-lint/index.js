@@ -41,7 +41,7 @@ module.exports = {
     "import/no-extraneous-dependencies": [
       "error",
       {
-        devDependencies: ["bin/**/*.js", "test/**/*.js", "test-setup.js"],
+        devDependencies: ["**/test/**/*.js"],
       },
     ],
     "flowtype-errors/show-errors": 2,
