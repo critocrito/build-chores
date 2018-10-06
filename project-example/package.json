@@ -1,11 +1,16 @@
 {
   "private": true,
   "scripts": {
-    "compile": "babel -d dist src",
+    "build": "yarn flow:libdefs && yarn lint && yarn test && yarn compile",
+    "clean": "rimraf dist",
+    "precompile": "yarn clean",
+    "compile": "babel -s -D -d dist src",
+    "postcompile": "yarn flow:gen",
     "fix": "yarn lint --fix",
-    "libdefs": "flow-libdefs update",
+    "flow:coverage": "flow-coverage-report --config ./.flowcoverage",
+    "flow:gen": "flow gen-flow-files --out-dir dist src",
+    "flow:libdefs": "yarn flow-libdefs update",
     "lint": "eslint src/**/*.js**",
-    "lint:coverage": "flow-coverage-report --config ./.flowcoverage",
     "test": "ava",
     "test:coverage": "nyc yarn test",
     "test:watch": "yarn test -w"
@@ -16,7 +21,8 @@
     "@build-chores/eslint-config-lint": "*",
     "@build-chores/staged": "*",
     "@build-chores/test": "*",
-    "ava": "1.0.0-beta.8"
+    "ava": "1.0.0-beta.8",
+    "rimraf": "^2.6.2"
   },
   "ava": {
     "require": "@build-chores/test"

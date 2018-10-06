@@ -39,10 +39,11 @@ Edit your `package.json` to include the following scripts. See the [example `pac
 ```
 {
   "scripts": {
-    "lint": "eslint src/**/*.js**",
-    "lint:coverage": "yarn flow-coverage-report --config ./.flowcoverage",
     "fix": "yarn lint --fix",
-    "libdefs": "yarn flow-libdefs update"
+    "flow:coverage": "yarn flow-coverage-report --config ./.flowcoverage",
+    "flow:gen": "flow gen-flow-files --out-dir dist src",
+    "flow:libdefs": "yarn flow-libdefs update",
+    "lint": "eslint src/**/*.js**"
   }
 }
 ```

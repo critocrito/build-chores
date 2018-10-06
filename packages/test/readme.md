@@ -49,8 +49,8 @@ Provide the `test` and `coverage` script targets to your `package.json`. AVA set
 {
   "scripts": {
     "test": "ava",
-    "test:watch": "yarn test -w",
-    "test:coverage": "nyc yarn test"
+    "test:coverage": "nyc yarn test",
+    "test:watch": "yarn test -w"
   }
 }
 ```
