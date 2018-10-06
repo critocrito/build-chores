@@ -1,0 +1,23 @@
+{
+  "name": "@build-chores/test",
+  "description": "Testing JS projects is complicated.",
+  "version": "0.5.0",
+  "main": "index.js",
+  "repository": "https://github.com/critocrito/build-chores.git",
+  "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/test#readme",
+  "author": "Christo <christo@cryptodrunks.net>",
+  "license": "GPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/register": "^7.0.0",
+    "ava": "^0.25.0",
+    "babel-plugin-istanbul": "^5.0.1",
+    "nyc": "^13.0.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.1.2"
+  }
+}
