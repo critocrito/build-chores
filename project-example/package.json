@@ -2,19 +2,19 @@
   "private": true,
   "scripts": {
     "compile": "babel -d dist src",
+    "fix": "yarn lint --fix",
+    "libdefs": "yarn flow-libdefs update",
     "lint": "eslint src/**/*.js**",
     "lint:coverage": "yarn flow-coverage-report --config ./.flowcoverage",
-    "fix": "yarn lint --fix",
     "test": "ava",
-    "test:watch": "yarn test -w",
     "test:coverage": "nyc yarn test",
-    "libdefs": "yarn flow-libdefs update"
+    "test:watch": "yarn test -w"
   },
   "devDependencies": {
     "@build-chores/babel-preset": "*",
+    "@build-chores/commitlint": "*",
     "@build-chores/eslint-config-lint": "*",
     "@build-chores/staged": "*",
-    "@build-chores/commitlint": "*",
     "@build-chores/test": "*"
   },
   "ava": {
