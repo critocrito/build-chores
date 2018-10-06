@@ -9,13 +9,11 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:promise/recommended",
-    "prettier",
-    "prettier/flowtype",
-    "prettier/standard",
-    "plugin:promise/recommended",
     "plugin:flowtype/recommended",
+    "plugin:prettier/recommended",
+    "prettier/flowtype",
   ],
-  plugins: ["import", "promise", "prettier", "flowtype", "flowtype-errors"],
+  plugins: ["import", "promise", "flowtype", "flowtype-errors", "prettier"],
   settings: {
     flowtype: {
       onlyFilesWithFlowAnnotation: true,
@@ -46,5 +44,13 @@ module.exports = {
     ],
     "flowtype-errors/show-errors": 2,
     "flowtype-errors/show-warnings": 1,
+    "prettier/prettier": [
+      "error",
+      {
+        trailingComma: "all",
+        bracketSpacing: false,
+        arrowParens: "always",
+      },
+    ],
   },
 };

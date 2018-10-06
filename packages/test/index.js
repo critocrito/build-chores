@@ -1,9 +1,7 @@
 require("@babel/register")({
   env: {
     test: {
-      plugins: [
-        ["babel-plugin-istanbul"],
-      ],
+      plugins: [["babel-plugin-istanbul"]],
     },
   },
 });
