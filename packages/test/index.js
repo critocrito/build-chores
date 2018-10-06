@@ -1,10 +1,8 @@
-const istanbul = require("babel-plugin-istanbul");
-
 require("@babel/register")({
-  "env": {
-    "test": {
-      "plugins": [
-        [istanbul.default],
+  env: {
+    test: {
+      plugins: [
+        ["babel-plugin-istanbul"],
       ],
     },
   },

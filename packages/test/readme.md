@@ -13,7 +13,7 @@ Use your custom Babel configuration with the [AVA](https://github.com/avajs/ava)
 Install the `@build-chores/test` package into your project:
 
 ```
-yarn install --dev @build-chores/test
+yarn install --dev @build-chores/test ava@1.0.0-beta.8
 ```
 
 To make use of AVA add the following entry to your `package.json`. It will use your local `.babelrc` to compile your source code and use [`babel-plugin-istanbul`](https://github.com/istanbuljs/babel-plugin-istanbul#readme) to instrument the code. See the [example `package.json`](../../project-example/package.json) for a template.
@@ -25,6 +25,8 @@ To make use of AVA add the following entry to your `package.json`. It will use y
   }
 }
 ```
+
+`ava` is declared as a peer dependency. This means it has to be installed along the `@build-chores/test` package. Make sure to install either `ava@1.0.0-beta.8` or `ava@next` tag. The default `ava` package installs a very old version.
 
 Configure code coverage by placing a `.nycrc` in your project root. See the [example `.nycrc`](../../project-example/.nycrc) for a template.
 
