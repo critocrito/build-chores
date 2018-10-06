@@ -1,3 +1,6 @@
+[ignore]
+.*/dist/.*
+
 [options]
 include_warnings=true
 esproposal.decorators=ignore
