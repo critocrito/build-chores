@@ -24,6 +24,18 @@ Create a `.babelrc` file containing the following snippet:
 }
 ```
 
+See [`babelrc.example`](../../babelrc.example) for a template.
+
+Edit your `package.json` to include the following script:
+
+```
+{
+  "scripts": {
+    "compile": "babel -d dist src"
+  }
+}
+```
+
 You are ready to transpile your JavaScript code.
 
 ## Contribute

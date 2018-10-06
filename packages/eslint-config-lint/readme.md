@@ -16,13 +16,31 @@ Install the `@build-chores/eslint-config-lint` package into your project:
 yarn install --dev @build-chores/eslint-config-lint
 ```
 
-Create a `.eslintrc` file containing the following snippet:
+Create a `.eslintrc` file containing the following snippet. See [`eslintrc.example`](../../eslintrc.example) for a template.
 
 ```
 {
   "extends": ["@build-chores/lint"]
 }
 ```
+
+ To use flow as well place a `.flowconfig` and `.flowcoverage` configuration file. See [`flowconfig.example`](../../flowconfig.example) and [`flowcoverage.example`](../../flowcoverage.example) for templates.
+
+Edit your `package.json` to include the following scripts:
+
+```
+{
+  "scripts": {
+    "lint": "eslint src/**/*.js**",
+    "fix": "yarn lint --fix",
+    "flow-coverage": "yarn flow-coverage-report --config ./.flowcoverage"
+  }
+}
+```
+
+Types are checked during the regular linting. If you want to run Flow separated, you can call the `flow` command directly with `yarn flow`.
+
+See the [rules file](index.js) for details of the ESLint configuration.
 
 You are ready to lint your JavaScript code.
 

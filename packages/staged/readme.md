@@ -16,12 +16,18 @@ Install the `@build-chores/staged` package into your project:
 yarn install --dev @build-chores/staged
 ```
 
-Add the following pre-commit hook to your `.huskyrc` configuration:
+Use [Husky](https://github.com/typicode/husky#readme) to lint your stage whenever you commit.
+
+```
+yarn add --dev husky
+```
+
+Place a `pre-commit` hook in your `.huskyrc`. The following example hook only lints your stage when committing to the `master` branch. See [`huskyrc.example`](../../huskyrc.example) for a template.
 
 ```
 {
   "hooks": {
-    "pre-commit": "! git rev-parse --abbrev-ref HEAD | grep -q master || (lint-staged -c @build-chores/staged && yarn test)"
+    "pre-commit": "! git rev-parse --abbrev-ref HEAD | grep -q master || lint-staged -c @build-chores/staged"
   }
 }
 ```
