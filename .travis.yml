@@ -10,3 +10,7 @@ install:
   - lerna bootstrap
 script:
   - yarn lint
+notifications:
+  email:
+    on_success: change
+    on_failure: always
