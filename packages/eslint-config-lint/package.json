@@ -22,7 +22,7 @@
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "flow-bin": "^0.88.0",
-    "flow-coverage-report": "^0.6.0",
+    "flow-coverage-report": "^0.6.1",
     "flow-typed": "^2.5.1",
     "prettier": "^1.14.3",
     "prettier-package-json": "^2.0.1"
