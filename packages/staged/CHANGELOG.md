@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/critocrito/build-chores/compare/v0.7.0...v0.8.0) (2019-02-26)
+
+
+### Bug Fixes
+
+* **package:** update lint-staged to version 8.0.0 ([#5](https://github.com/critocrito/build-chores/issues/5)) ([dfacdd6](https://github.com/critocrito/build-chores/commit/dfacdd6))
+
+
+
+
+
 # [0.7.0](https://github.com/critocrito/build-chores/compare/v0.6.0...v0.7.0) (2018-10-06)
 
 

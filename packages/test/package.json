@@ -5,7 +5,7 @@
   "author": "Christo <christo@cryptodrunks.net>",
   "homepage": "https://github.com/critocrito/build-chores/tree/master/packages/test#readme",
   "repository": "https://github.com/critocrito/build-chores.git",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.1.2",

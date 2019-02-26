@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/critocrito/build-chores/compare/v0.7.0...v0.8.0) (2019-02-26)
+
+
+### Bug Fixes
+
+* **eslint:** set ava@1 as peer dependency ([559d8ff](https://github.com/critocrito/build-chores/commit/559d8ff))
+
+
+
+
+
 # [0.7.0](https://github.com/critocrito/build-chores/compare/v0.6.0...v0.7.0) (2018-10-06)
 
 
