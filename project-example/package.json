@@ -8,7 +8,7 @@
     "postcompile": "yarn flow:gen",
     "fix": "yarn lint --fix",
     "flow:coverage": "flow-coverage-report --config ./.flowcoverage",
-    "flow:gen": "flow gen-flow-files --out-dir dist src",
+    "flow:gen": "gen-flow-files --out-dir dist src",
     "flow:libdefs": "yarn flow-libdefs update",
     "lint": "eslint src/**/*.js**",
     "test": "ava",

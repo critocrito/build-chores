@@ -26,6 +26,8 @@ Create a `.eslintrc` file containing the following snippet. See the [example `.e
 
  To use flow as well place a `.flowconfig` and `.flowcoverage` configuration file. See the [example `flowconfig`](../../project-example/.flowconfig) and the [example `.flowcoverage`](../../project-example/.flowcoverage) for templates.
 
+Note that even if `flow` isn't use an empty `.flowconfig` file has to be created.
+
 This package installs [`flow-typed`](https://github.com/flow-typed/flow-typed#readme) to install flow type definitions. To make it work in this setup the `flow-libdefs` wrapper script is provided. It takes the same arguments as `flow-typed`.
 
 The following command installs type definitions for your dependencies.
@@ -41,7 +43,7 @@ Edit your `package.json` to include the following scripts. See the [example `pac
   "scripts": {
     "fix": "yarn lint --fix",
     "flow:coverage": "yarn flow-coverage-report --config ./.flowcoverage",
-    "flow:gen": "flow gen-flow-files --out-dir dist src",
+    "flow:gen": "gen-flow-files --out-dir dist src",
     "flow:libdefs": "yarn flow-libdefs update",
     "lint": "eslint src/**/*.js**"
   }

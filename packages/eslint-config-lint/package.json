@@ -24,6 +24,7 @@
     "flow-bin": "^0.93.0",
     "flow-coverage-report": "^0.6.0",
     "flow-typed": "^2.5.1",
+    "gen-flow-files": "^0.4.1",
     "prettier": "^1.14.3",
     "prettier-package-json": "^2.0.1"
   },
