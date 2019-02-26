@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/critocrito/build-chores/compare/v0.8.0...v0.9.0) (2019-02-26)
+
+
+### Bug Fixes
+
+* **test:** require ava ^1.0.0 as peer dependency ([d96fd52](https://github.com/critocrito/build-chores/commit/d96fd52))
+
+
+
+
+
 # [0.8.0](https://github.com/critocrito/build-chores/compare/v0.7.0...v0.8.0) (2019-02-26)
 
 
