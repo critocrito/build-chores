@@ -11,7 +11,7 @@ Suggestions and pull requests are highly encouraged! Have a look at the [open is
 
 ```
 yarn install
-yarn compile
+yarn bootstrap
 ```
 
 ## Releasing

@@ -10,6 +10,7 @@
     "packages/*"
   ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "build": "yarn lint",
     "fix": "yarn lint --fix",
     "lint": "eslint packages/**/*.js",
