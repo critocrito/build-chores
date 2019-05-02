@@ -17,7 +17,7 @@
     "release": "lerna publish"
   },
   "devDependencies": {
-    "husky": "^1.1.1",
+    "husky": "^2.2.0",
     "lerna": "^3.4.1"
   }
 }
